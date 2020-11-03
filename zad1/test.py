@@ -42,13 +42,13 @@ class HammingTest(unittest.TestCase):
             hamming.distance("G", "")
 
     # Utility functions
-    @unittest.skip
+
     def setUp(self):
         try:
             self.assertRaisesRegex
         except AttributeError:
             self.assertRaisesRegex = self.assertRaisesRegexp
 
-    @unittest.skip
+
     def assertRaisesWithMessage(self, exception):
         return self.assertRaisesRegex(exception, r".+")
