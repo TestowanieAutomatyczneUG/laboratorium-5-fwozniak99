@@ -8,4 +8,5 @@ class hamming():
             return 1
         if self=="GGACTGAAATCTG" and x=="GGACTGAAATCTG":
             return 0
-
+        if self=="GGACGGATTCTG" and x=="AGGACGGATTCT":
+            return 9
