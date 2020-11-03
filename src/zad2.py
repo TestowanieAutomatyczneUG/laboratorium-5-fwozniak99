@@ -5,25 +5,31 @@ class RomanNum():
         n = num%10
         nDecimal = int(num%100/10)
         nHund = int(num%1000/100)
+        nThou = int(num % 10000 / 1000)
+
+        if nThou == 1:
+            romanNumber += "M"
+        if nThou == 2:
+            romanNumber += "MM"
 
 
         if nHund == 1:
             romanNumber += "C"
-        if nHund == 2:
+        elif nHund == 2:
             romanNumber += "CC"
-        if nHund == 3:
+        elif nHund == 3:
             romanNumber += "CCC"
-        if nHund == 4:
+        elif nHund == 4:
             romanNumber += "CD"
-        if nHund == 5:
+        elif nHund == 5:
             romanNumber += "D"
-        if nHund == 6:
+        elif nHund == 6:
             romanNumber += "DC"
-        if nHund == 7:
+        elif nHund == 7:
             romanNumber += "DCC"
-        if nHund == 8:
+        elif nHund == 8:
             romanNumber += "DCCC"
-        if nHund == 9:
+        elif nHund == 9:
             romanNumber += "CM"
 
         if nDecimal == 1:
