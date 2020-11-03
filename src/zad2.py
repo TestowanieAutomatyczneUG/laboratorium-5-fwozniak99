@@ -15,6 +15,14 @@ class RomanNum():
             romanNumber += "CCC"
         if nHund == 4:
             romanNumber += "CD"
+        if nHund == 5:
+            romanNumber += "D"
+        if nHund == 6:
+            romanNumber += "DC"
+        if nHund == 7:
+            romanNumber += "DCC"
+        if nHund == 8:
+            romanNumber += "DCCC"
 
         if nDecimal == 1:
             romanNumber += "X"
