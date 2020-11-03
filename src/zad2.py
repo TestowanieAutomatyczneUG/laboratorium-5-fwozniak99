@@ -10,6 +10,10 @@ class RomanNum():
             romanNumber += "X"
         if nDecimal == 2:
             romanNumber += "XX"
+        if nDecimal == 3:
+            romanNumber += "XXX"
+        if nDecimal == 4:
+            romanNumber += "XL"
 
         if n==1:
             romanNumber += "I"
