@@ -4,7 +4,11 @@ class RomanNum():
         romanNumber = ""
         n = num%10
         nDecimal = int(num%100/10)
+        nHund = int(num%1000/100)
 
+
+        if nHund == 1:
+            romanNumber += "C"
 
         if nDecimal == 1:
             romanNumber += "X"
