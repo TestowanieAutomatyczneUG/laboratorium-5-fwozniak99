@@ -11,6 +11,9 @@ class RomanNum():
             romanNumber += "M"
         if nThou == 2:
             romanNumber += "MM"
+        if nThou == 3:
+            romanNumber += "MMM"
+
 
 
         if nHund == 1:
