@@ -1,5 +1,5 @@
 import unittest
-from zad1 import hamming
+from src.zad1 import hamming
 
 class HammingTest(unittest.TestCase):
     def test_empty_strands(self):
