@@ -6,3 +6,5 @@ class RomanNum():
             return "II"
         if num==3:
             return "III"
+        if num==4:
+            return "IV"
