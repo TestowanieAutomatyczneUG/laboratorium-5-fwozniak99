@@ -8,20 +8,22 @@ class RomanNum():
 
         if nDecimal == 1:
             romanNumber += "X"
-        if nDecimal == 2:
+        elif nDecimal == 2:
             romanNumber += "XX"
-        if nDecimal == 3:
+        elif nDecimal == 3:
             romanNumber += "XXX"
-        if nDecimal == 4:
+        elif nDecimal == 4:
             romanNumber += "XL"
-        if nDecimal == 5:
+        elif nDecimal == 5:
             romanNumber += "L"
-        if nDecimal == 6:
+        elif nDecimal == 6:
             romanNumber += "LX"
-        if nDecimal == 7:
+        elif nDecimal == 7:
             romanNumber += "LXX"
-        if nDecimal == 8:
+        elif nDecimal == 8:
             romanNumber += "LXXX"
+        elif nDecimal == 9:
+            romanNumber += "XC"
 
         if n==1:
             romanNumber += "I"
