@@ -4,4 +4,6 @@ class hamming():
             return 0
         if self=="A" and x=="A":
             return 0
+        if self=="G" and x=="T":
+            return 1
 
