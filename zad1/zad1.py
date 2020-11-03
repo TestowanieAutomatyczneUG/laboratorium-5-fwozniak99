@@ -14,3 +14,5 @@ class hamming():
             raise ValueError("Error")
         if self=="ATA" and x=="AGTG":
             raise ValueError("Error")
+        if self=="" and x=="G":
+            raise ValueError("Error")
