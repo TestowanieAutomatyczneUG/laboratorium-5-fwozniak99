@@ -23,6 +23,8 @@ class RomanNum():
             romanNumber += "DCC"
         if nHund == 8:
             romanNumber += "DCCC"
+        if nHund == 9:
+            romanNumber += "CM"
 
         if nDecimal == 1:
             romanNumber += "X"
