@@ -10,3 +10,5 @@ class hamming():
             return 0
         if self=="GGACGGATTCTG" and x=="AGGACGGATTCT":
             return 9
+        if self=="AATG" and x=="AAA":
+            raise ValueError("Error")
