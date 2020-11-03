@@ -14,6 +14,14 @@ class RomanNum():
             romanNumber += "XXX"
         if nDecimal == 4:
             romanNumber += "XL"
+        if nDecimal == 5:
+            romanNumber += "L"
+        if nDecimal == 6:
+            romanNumber += "LX"
+        if nDecimal == 7:
+            romanNumber += "LXX"
+        if nDecimal == 8:
+            romanNumber += "LXXX"
 
         if n==1:
             romanNumber += "I"
