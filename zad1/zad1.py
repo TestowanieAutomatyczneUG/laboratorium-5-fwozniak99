@@ -3,4 +3,3 @@ class hamming():
         if self == "" and x=="":
             return 0
 
-
