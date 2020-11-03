@@ -9,6 +9,12 @@ class RomanNum():
 
         if nHund == 1:
             romanNumber += "C"
+        if nHund == 2:
+            romanNumber += "CC"
+        if nHund == 3:
+            romanNumber += "CCC"
+        if nHund == 4:
+            romanNumber += "CD"
 
         if nDecimal == 1:
             romanNumber += "X"
