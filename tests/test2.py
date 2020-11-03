@@ -32,9 +32,9 @@ class RomanNumeralsTest(unittest.TestCase):
     def test_9_being_10_1_is_ix(self):
         self.assertEqual(self.temp.roman(9), "IX")
 
-    @unittest.SkipTest
+
     def test_20_is_two_x_s(self):
-        self.assertEqual(roman(27), "XXVII")
+        self.assertEqual(self.temp.roman(27), "XXVII")
 
     @unittest.SkipTest
     def test_48_is_not_50_2_but_rather_40_8(self):
